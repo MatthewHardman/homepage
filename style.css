@@ -37,6 +37,10 @@ img {
   margin: 50px;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 button {
   background-color: #ff4242; /*Brick Red: #CE4760 Tart Orange: FF4242*/
   height: 50px;
