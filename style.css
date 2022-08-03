@@ -1,0 +1,53 @@
+* {
+  background-color: #00171f;
+  color: white;
+  font-family: helvetica;
+}
+
+#github {
+  font-size: 50px;
+  margin: 10px;
+}
+
+.about-me {
+  margin: 50px 50px 10px 100px;
+}
+
+h2 {
+  color: #007ea7;
+}
+
+#body {
+  display: flex;
+}
+
+.project {
+  display: flex;
+}
+
+p {
+  width: 40%;
+  margin: 50px;
+  font-size: 1.25rem;
+}
+
+img {
+  height: 200px;
+  width: auto;
+  margin: 50px;
+}
+
+button {
+  background-color: #ff4242; /*Brick Red: #CE4760 Tart Orange: FF4242*/
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 1300px) {
+  #body {
+    display: flex;
+    flex-direction: column;
+  }
+}
